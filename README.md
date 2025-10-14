@@ -39,6 +39,40 @@ This project focuses on backend development, database design, API creation, and 
 - 🔄 CI/CD integration with automated deployment pipelines  
 - 📦 Docker-based development and deployment environment
 
+## 👥 Team Roles
+
+Building the **Airbnb Clone Project** involves several specialized roles that work collaboratively to ensure a smooth and efficient development process.  
+Each role contributes to a specific aspect of the system’s architecture, functionality, and overall success.
+
+### 🧑‍💻 Backend Developer
+Responsible for designing and implementing the core server logic, APIs, and data processing workflows using **Django** and **GraphQL**.  
+They ensure that the backend is secure, scalable, and well-integrated with the database and frontend layers.
+
+### 🗃️ Database Administrator (DBA)
+Designs, manages, and optimizes the **MySQL** database schema.  
+They ensure data integrity, implement indexing for performance, and handle backup and recovery strategies to maintain consistent data availability.
+
+### 🧠 System Architect
+Defines the overall **software architecture** and ensures that all components — backend, APIs, CI/CD, and database — integrate seamlessly.  
+They make decisions about system structure, scalability, and security strategies.
+
+### ⚙️ DevOps Engineer
+Oversees deployment automation and CI/CD pipeline setup using **Docker** and **GitHub Actions**.  
+They manage version control workflows, environment configuration, and continuous delivery to ensure fast, reliable deployments.
+
+### 🧪 QA Engineer
+Tests application features, APIs, and workflows to ensure they meet functional and non-functional requirements.  
+They identify bugs, document issues, and verify fixes before release, ensuring high-quality output.
+
+### 🎨 UI/UX Designer
+Designs user-friendly interfaces and smooth navigation flows that align with the **Airbnb-style** experience.  
+They focus on aesthetics, responsiveness, and usability to deliver an intuitive customer journey.
+
+### 📋 Project Manager / Scrum Master
+Coordinates the development process, sets deadlines, and ensures effective team collaboration.  
+They manage sprints, monitor progress, and keep communication clear across all roles to meet project goals on schedule.
+
+
 
 ## 🏡 Properties
 **Fields:**  
