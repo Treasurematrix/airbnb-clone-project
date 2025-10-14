@@ -50,4 +50,22 @@ This project focuses on backend development, database design, API creation, and 
 
 **Relationship:**  
 - A property belongs to a user (host).  
-- A property can have multiple bookings and reviews. 
+- A property can have multiple bookings and reviews.
+  
+
+  ## 🧱 Database Design
+
+The database for the **Airbnb Clone Project** is designed using a relational model to ensure data integrity, scalability, and efficient queries.  
+Below are the key entities and their core attributes:
+
+### 🧍 Users
+**Fields:**  
+- `id`: Unique identifier for each user  
+- `name`: User’s full name  
+- `email`: User’s email address (unique)  
+- `password_hash`: Securely stored password  
+- `role`: Defines if the user is a host or guest  
+
+**Relationship:**  
+- A user can list multiple properties.  
+- A user can make multiple bookings and reviews. 
