@@ -40,9 +40,14 @@ This project focuses on backend development, database design, API creation, and 
 - 📦 Docker-based development and deployment environment
 
 
+## 🏡 Properties
+**Fields:**  
+- `id`: Unique property identifier  
+- `title`: Property name or title  
+- `description`: Details about the property  
+- `price_per_night`: Cost per booking  
+- `host_id`: References the user who owns the property  
 
-
-🏁 Acknowledgements
-
-Special thanks to @alx_africa and the ALX Software Engineering Program for providing the foundation and support for this project.
-#ALX_SE #ALX_FE #ALX_BE #ALX_PDFE #ALX_PDBE
+**Relationship:**  
+- A property belongs to a user (host).  
+- A property can have multiple bookings and reviews. 
