@@ -72,6 +72,30 @@ They focus on aesthetics, responsiveness, and usability to deliver an intuitive 
 Coordinates the development process, sets deadlines, and ensures effective team collaboration.  
 They manage sprints, monitor progress, and keep communication clear across all roles to meet project goals on schedule.
 
+🧩 *These roles work in synergy to replicate real-world development workflows — ensuring collaboration, scalability, and high-quality project delivery.*
+
+
+
+## 🧠 Technology Stack
+
+The **Airbnb Clone Project** leverages a modern and scalable technology stack designed for performance, security, and reliability.  
+Each technology serves a specific function in achieving the project’s objectives.
+
+| Technology | Purpose |
+|-------------|----------|
+| **Django** | A high-level Python web framework used for developing the backend, building RESTful and GraphQL APIs, and managing application logic efficiently. |
+| **MySQL** | A relational database system used to store and manage structured data such as users, bookings, properties, and payments with integrity and scalability. |
+| **GraphQL** | A query language for APIs that allows clients to request only the data they need, improving performance and flexibility compared to traditional REST APIs. |
+| **Docker** | Used to containerize the application, ensuring consistent development, testing, and production environments across all team members. |
+| **Git & GitHub** | Provide version control and collaborative code management, enabling multiple developers to contribute simultaneously with proper workflow tracking. |
+| **GitHub Actions** | Powers the CI/CD pipeline, automating tasks such as testing, building, and deploying the application. |
+| **Nginx** | Serves as a reverse proxy and load balancer, improving performance, scalability, and security in production deployments. |
+| **JWT (JSON Web Tokens)** | Manages authentication and authorization securely, allowing users to log in and perform authorized actions without exposing credentials. |
+| **HTML, CSS & JavaScript** | Form the foundational technologies for structuring, styling, and adding interactivity to the frontend of the web application. |
+
+🧩 *Together, these technologies create a cohesive ecosystem that supports a secure, efficient, and scalable booking platform similar to Airbnb.*
+
+
 
 
 ## 🏡 Properties
