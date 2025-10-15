@@ -127,3 +127,70 @@ Below are the key entities and their core attributes:
 **Relationship:**  
 - A user can list multiple properties.  
 - A user can make multiple bookings and reviews. 
+
+
+## ⚙️ Feature Breakdown
+
+### 👤 User Management
+Handles account registration, login, profile updates, and user roles (host/guest).  
+This ensures personalized access and enables secure identity management across the platform.
+
+### 🏘️ Property Management
+Allows hosts to list, update, or remove properties with detailed descriptions, images, and pricing.  
+This feature forms the core of the platform’s marketplace functionality.
+
+### 📆 Booking System
+Enables guests to search for available properties and make reservations.  
+It ensures accurate date handling, availability checks, and automated booking confirmation.
+
+### 💬 Reviews and Ratings
+Allows guests to leave feedback and rate properties after a stay.  
+These reviews enhance user trust and improve the overall experience for future guests.
+
+### 💳 Payment Processing
+Handles secure payment transactions linked to bookings.  
+Ensures that each transaction is validated, logged, and safely processed through reliable payment gateways.
+
+
+## 🔒 API Security
+
+To ensure the integrity and safety of user data, the project implements multiple security layers:
+
+- **Authentication:**  
+  Implemented using JWT to verify user identity before granting access to API endpoints.  
+  *Crucial for preventing unauthorized access and data breaches.*
+
+- **Authorization:**  
+  Role-based access control ensures users can only perform actions permitted for their account type (e.g., hosts manage properties, guests make bookings).  
+  *Helps protect sensitive operations like property management.*
+
+- **Rate Limiting:**  
+  Prevents abuse by limiting the number of API requests per user within a specific timeframe.  
+  *Protects the system from DDoS and brute-force attacks.*
+
+- **Data Encryption:**  
+  All data transmitted between client and server is secured via HTTPS and encryption.  
+  *Safeguards user credentials and payment information.*
+
+
+## 🔄 CI/CD Pipeline
+
+### What It Is
+A **CI/CD pipeline** automates the process of integrating code changes, running tests, and deploying updates to production.  
+This ensures faster delivery, fewer errors, and a more reliable development workflow.
+
+### Why It Matters
+- Ensures consistent code quality through automated testing  
+- Reduces human error during deployment  
+- Enables quick iteration and faster delivery of new features  
+
+### Tools Used
+- **GitHub Actions:** Automates build, test, and deployment workflows.  
+- **Docker:** Packages applications and dependencies into portable containers for deployment.  
+- **Nginx (optional):** Used for serving the application in production environments.  
+
+
+🏁 Acknowledgements
+
+Special thanks to @alx_africa and the ALX Software Engineering Program for providing the foundation and support for this project.
+#ALX_SE #ALX_FE #ALX_BE #ALX_PDFE #ALX_PDBE
